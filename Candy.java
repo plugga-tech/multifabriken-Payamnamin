@@ -1,4 +1,5 @@
 public class Candy extends Product {
+    
     private String flavor;
     private String quantity;
 
