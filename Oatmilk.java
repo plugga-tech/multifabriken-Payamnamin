@@ -1,9 +1,9 @@
-public class Oatmilk extends Product {
+public class OatMilk extends Product {
 
     private double fatContent;
     private double volume;
 
-    public Oatmilk(double fatContent, double volume){
+    public OatMilk(double fatContent, double volume){
     
         super("Havremjölk");
 
