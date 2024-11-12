@@ -1,9 +1,9 @@
 public class Candy extends Product {
-    
-    private String flavor;
-    private String quantity;
 
-    public Candy(String flavor, String quantity) {
+    private String flavor;
+    private int quantity;
+
+    public Candy(String flavor, int quantity) {
     
         super("Godis");
         this.flavor = flavor;
