@@ -16,7 +16,7 @@ public class App {
 
 
         while (running) {
-            System.out.println("Välj en produkt att beställa");
+            System.out.println("Välj en produkt att beställa :");
 
             System.out.println("1. Bilar");
             System.out.println("2. Godis");
@@ -74,19 +74,19 @@ public class App {
 
                 case 5:
                 //List the all products
-                System.out.println("Beställda bilar: ");
+                System.out.println("Beställda bilar : ");
                 for (Car car : cars) {
                     System.out.println(car.display());
                 }
-                System.out.println("Beställda godis: ");
+                System.out.println("Beställda godis : ");
                 for (Candy candy : candies) {
                     System.out.println(candy.display());
                 }
-                System.out.println("Bäställda rör:");
+                System.out.println("Bäställda rör :");
                 for (Pipe pipe : pipes) {
                     System.out.println(pipe.display());
                 }
-                System.out.println("Bäställda havremjölk");
+                System.out.println("Bäställda havremjölk :");
                 for (OatMilk oatMilk : oatmilks) {
                     System.out.println(oatMilk.display());
                 }
